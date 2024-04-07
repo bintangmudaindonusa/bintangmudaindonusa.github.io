@@ -65,10 +65,15 @@ var dataFacebook = "61557873582039";
 var dataInstagram = "";
 var dataTiktok = "bintangmudaindonusa";
 var dataYoutube = "bintangmudaindonusa";
-var versiApp = "1.0.0";
+var versiApp = "1.1.24"; // nomor versi : nomor batch : tahun
 var versiWeb = "Developer"; // Developer / Online
 // let pathWeb = "/bintang-muda-indonusa/";
 let pathWeb = "/";
+
+// CEK VERSI WEB
+// if(versiWeb === "Developer"){
+//   window.location.href = 'comming-soon.html';
+// }
 
 // NAVBAR
 // NAV TOP
@@ -133,18 +138,18 @@ function renderFooter() {
                             <ul class="list-unstyled">
                               <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkWhatsapp">Hubungi Kami</a></li>
                               <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkAlamat">Lokasi Kantor</a></li>
-                              <li class="py-0 py-md-1"><a href="#" class="text-white">Informasi Penting</a></li>
-                              <li class="py-0 py-md-1"><a href="#" class="text-white">Forum Tanya Jawab</a></li>
+                              <li class="py-0 py-md-1"><a href="#" class="text-white urlHide">Informasi Penting</a></li>
+                              <li class="py-0 py-md-1"><a href="#" class="text-white urlHide">Forum Tanya Jawab</a></li>
                             </ul>
                           </div>
                           <div class="col-6 col-md-3 mb-md-0">
                             <h5 class="text-white"><strong>SOSIAL MEDIA</strong></h5>
                             <ul class="list-unstyled">
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkWhatsapp"><i class="bi bi-whatsapp mr-1"></i> WhatsApp</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkFacebook"><i class="bi bi-facebook mr-1"></i> Facebook</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkInstagram"><i class="bi bi-instagram mr-1"></i> Instagram</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkTiktok"><i class="bi bi-tiktok mr-1"></i> Tiktok</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkYoutube"><i class="bi bi-youtube mr-1"></i> Youtube</a></li>
+                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkWhatsapp targetBlank"><i class="bi bi-whatsapp mr-1"></i> WhatsApp</a></li>
+                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkFacebook targetBlank"><i class="bi bi-facebook mr-1"></i> Facebook</a></li>
+                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkInstagram targetBlank"><i class="bi bi-instagram mr-1"></i> Instagram</a></li>
+                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkTiktok targetBlank"><i class="bi bi-tiktok mr-1"></i> Tiktok</a></li>
+                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkYoutube targetBlank"><i class="bi bi-youtube mr-1"></i> Youtube</a></li>
                             </ul>
                           </div>
                         </div>
@@ -170,19 +175,19 @@ function renderMenu() {
   const dataMenu = [
     {
       judul: "Produk & Layanan",
-      link: "layanan.html",
+      link: "services.html",
     },
     {
       judul: "Tentang Kami",
-      link: "tentang-kami.html",
+      link: "about.html",
     },
     {
       judul: "Kontak",
-      link: "kontak.html",
+      link: "contact.html",
     },
     {
       judul: "Berita",
-      link: "berita.html",
+      link: "news.html",
     },
   ];
 
@@ -337,3 +342,21 @@ setInterval(() => {
     spth.innerHTML = thn;
   });
 }, 1);
+
+// Hide Link Status
+$(function(){
+  $(".urlHide").each(function (index, element) {
+    var href = $(this).attr("href");
+    $(this).attr("hiddenhref", href);
+    $(this).removeAttr("href");
+  });
+  $(".targetBlank").each(function (index, element) {
+    var href = $(this).attr("href");
+    $(this).attr("hiddenhref", href);
+    $(this).removeAttr("href");
+  });
+    $(".targetBlank").click(function () {
+      url = $(this).attr("hiddenhref");
+      window.open(url);
+    });
+});
