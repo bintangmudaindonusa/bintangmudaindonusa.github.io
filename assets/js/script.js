@@ -66,7 +66,7 @@ var dataInstagram = "";
 var dataTiktok = "bintangmudaindonusa";
 var dataYoutube = "bintangmudaindonusa";
 var versiApp = "1.1.24"; // nomor versi : nomor batch : tahun
-var versiWeb = "Developer"; // Developer / Online
+var versiWeb = "Online"; // Developer / Online
 // let pathWeb = "/bintang-muda-indonusa/";
 let pathWeb = "/";
 
