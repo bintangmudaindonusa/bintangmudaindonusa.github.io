@@ -1,5 +1,5 @@
 <h1>PT BINTANG MUDA INDONUSA</h1>
-<h3>Layanan Jasa Pengurusan Dokumen</h3>
+<h3>Layanan Jasa Pengurusan Dokumen, Konsultan Bisnis dan Keuangan</h3>
 <hr>
 Berikut produk jasa yang kami tawarkan :
 <ul>
