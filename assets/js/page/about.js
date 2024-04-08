@@ -7,6 +7,20 @@ const dataKaryawan = [
     sosmed: "facebook", // icon : whatsapp facebook instagram tiktok youtube email
     linkSosmed: "https://www.facebook.com/r.pilohima",
   },
+  {
+    nama: "Thiofilus M. Koho",
+    foto: "thiofilus.png",
+    jabatan: "Admin Officer",
+    sosmed: "whatsapp", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "#",
+  },
+  {
+    nama: "Ruslan D. Samuel",
+    foto: "ruslan.png",
+    jabatan: "Admin Support Media",
+    sosmed: "instagram", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "https://www.instagram.com/rusland_s",
+  },
 ];
 
 const rowKaryawan = document.querySelector("#rowKaryawan");
