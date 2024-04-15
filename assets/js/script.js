@@ -129,9 +129,9 @@ function renderFooter() {
                           <div class="col-6 col-md-3 mb-md-0">
                             <h5 class="text-white"><strong>PRODUK &amp; LAYANAN</strong></h5>
                             <ul class="list-unstyled">
-                              <li class="py-0 py-md-1"><a href="layanan.html" class="text-white">Dokumen Sipil</a></li>
-                              <li class="py-0 py-md-1"><a href="layanan.html" class="text-white">Wajib Pajak</a></li>
-                              <li class="py-0 py-md-1"><a href="layanan.html" class="text-white">Keuangan</a></li>
+                              <li class="py-0 py-md-1"><a href="services.html" class="text-white">Dokumen Sipil</a></li>
+                              <li class="py-0 py-md-1"><a href="services.html" class="text-white">Wajib Pajak</a></li>
+                              <li class="py-0 py-md-1"><a href="services.html" class="text-white">Keuangan</a></li>
                             </ul>
                           </div>
                           <div class="col-6 col-md-3 mb-md-0">
