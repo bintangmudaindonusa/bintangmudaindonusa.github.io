@@ -53,7 +53,7 @@ dataKarir.forEach((krr) => {
                     </div>
                     <div id="collapse${krr.id}" class="collapse" aria-labelledby="heading${krr.id}" data-parent="#accordionKarir">
                         <div class="card-body p-2">${krr.deskripsi}</div>
-                        <a href="#" target="_blank" class="btn btn-sm btn-primary float-right m-2 shadow-sm linkLamaranWhatsapp targetBlank text-white" data-posisi="${krr.jabatan}"><i class="bi bi-send mr-1"></i>Kirim Lamaran</a>
+                        <a href="#" target="_blank" class="m-2 btn btn-sm btn-primary float-right shadow-sm linkLamaranTelepon text-white rounded-0" data-posisi="${krr.jabatan}"><i class="bi bi-send mr-1"></i>Kirim Lamaran</a>
                     </div>
                 </div>`;
 });
