@@ -56,17 +56,18 @@ var namaPerusahaan = "Bintang Muda Indonusa";
 var nibPerusahaan = "2102240027329";
 var dataAlamat =
   "Jln. Ahmad Yani, Kel. Sario Tumpaan, Sario, Manado, Sulawesi Utara 95114";
-var dataLinkAlamat = "https://maps.app.goo.gl/W9JZyrpTiToEduSC8";
+var dataLinkAlamat = "https://maps.app.goo.gl/gthtb8mBsmWZ8fU99";
 var dataEmbedAlamat =
-  "https://www.google.com/maps/embed?pb=!4v1712330985903!6m8!1m7!1sBZ8rYGiqWV8nQbi3j6L-ug!2m2!1d1.464865468715683!2d124.8301735029111!3f106.98!4f-1.0499999999999972!5f0.7820865974627469";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5143761243467!2d124.8302449!3d1.4648812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x328775379d4996ff%3A0xcd5f97c4c108145!2sPT.%20BINTANG%20MUDA%20INDONUSA!5e0!3m2!1sid!2sid!4v1713209637382!5m2!1sid!2sid";
 var dataTelepon = "82292220994";
+var dataWhatsapp = "7JQNMQX2GUXBJ1";
 var dataEmail = "bintangmudaindonusa@gmail.com";
 var dataFacebook = "61557873582039";
-var dataInstagram = "";
+var dataInstagram = "bintang_muda_indonusa";
 var dataTiktok = "bintangmudaindonusa";
 var dataYoutube = "bintangmudaindonusa";
 var versiApp = "1.1.24"; // nomor versi : nomor batch : tahun
-var versiWeb = "Online"; // Developer / Online
+var versiWeb = "Developer"; // Developer / Online
 // let pathWeb = "/bintang-muda-indonusa/";
 let pathWeb = "/";
 
@@ -136,8 +137,8 @@ function renderFooter() {
                           <div class="col-6 col-md-3 mb-md-0">
                             <h5 class="text-white"><strong>BANTUAN &amp; DUKUNGAN</strong></h5>
                             <ul class="list-unstyled">
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkWhatsapp">Hubungi Kami</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkAlamat">Lokasi Kantor</a></li>
+                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkWhatsapp">Hubungi Kami</a></li>
+                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkAlamat">Lokasi Kantor</a></li>
                               <li class="py-0 py-md-1"><a href="#" class="text-white urlHide">Informasi Penting</a></li>
                               <li class="py-0 py-md-1"><a href="#" class="text-white urlHide">Forum Tanya Jawab</a></li>
                             </ul>
@@ -145,11 +146,11 @@ function renderFooter() {
                           <div class="col-6 col-md-3 mb-md-0">
                             <h5 class="text-white"><strong>SOSIAL MEDIA</strong></h5>
                             <ul class="list-unstyled">
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkWhatsapp targetBlank"><i class="bi bi-whatsapp mr-1"></i> WhatsApp</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkFacebook targetBlank"><i class="bi bi-facebook mr-1"></i> Facebook</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkInstagram targetBlank"><i class="bi bi-instagram mr-1"></i> Instagram</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkTiktok targetBlank"><i class="bi bi-tiktok mr-1"></i> Tiktok</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white linkYoutube targetBlank"><i class="bi bi-youtube mr-1"></i> Youtube</a></li>
+                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkWhatsapp "><i class="bi bi-whatsapp mr-1"></i> WhatsApp</a></li>
+                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkFacebook "><i class="bi bi-facebook mr-1"></i> Facebook</a></li>
+                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkInstagram "><i class="bi bi-instagram mr-1"></i> Instagram</a></li>
+                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkTiktok "><i class="bi bi-tiktok mr-1"></i> Tiktok</a></li>
+                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkYoutube "><i class="bi bi-youtube mr-1"></i> Youtube</a></li>
                             </ul>
                           </div>
                         </div>
@@ -212,6 +213,10 @@ renderMenu();
 let spanNama = document.querySelectorAll(".spanNama");
 let spanNib = document.querySelectorAll(".spanNib");
 let spanTelepon = document.querySelectorAll(".spanTelepon");
+let spanWhatsapp = document.querySelectorAll(".spanWhatsapp");
+let linkTelepon = document.querySelectorAll(".linkTelepon");
+let linkJanjiTelepon = document.querySelectorAll(".linkJanjiTelepon");
+let linkLamaranTelepon = document.querySelectorAll(".linkLamaranTelepon");
 let linkWhatsapp = document.querySelectorAll(".linkWhatsapp");
 let linkJanjiWhatsapp = document.querySelectorAll(".linkJanjiWhatsapp");
 let linkLamaranWhatsapp = document.querySelectorAll(".linkLamaranWhatsapp");
@@ -232,25 +237,44 @@ spanNib.forEach((spni) => {
   spni.innerText = nibPerusahaan;
 });
 // Telepon
+// Link Universal
 spanTelepon.forEach((sptl) => {
   sptl.innerText = `+62${dataTelepon}`;
 });
-// Telepon / WhatsApp
+linkTelepon.forEach((lktl) => {
+  let textTel = `Hi Admin *PT. Bintang Muda Indonusa*,${urlEnter}${urlEnter}Nama Saya :${urlEnter}${urlEnter}Saya ingin bertanya sesuatu`;
+  lktl.setAttribute("href", `https://wa.me/62${dataTelepon}?text=${textTel}`);
+});
+// Buat Janji
+linkJanjiTelepon.forEach((ljtl) => {
+  let textJanjiTel = `Hi Admin *PT. Bintang Muda Indonusa*,${urlEnter}${urlEnter}Nama Saya :${urlEnter}${urlEnter}Saya ingin membuat janji temu pada${urlEnter}Hari / Tanggal :${urlEnter}Jam :${urlEnter}Tempat :${urlEnter}Apakah bersedia?`;
+  ljtl.setAttribute("href", `https://wa.me/62${dataTelepon}?text=${textJanjiTel}`);
+});
+// Lamaran Kerja
+linkLamaranTelepon.forEach((lltl) => {
+  let dataPosTel = lltl.getAttribute("data-posisi");
+  let textLamaranTel = `Hi Admin *PT. Bintang Muda Indonusa*,${urlEnter}${urlEnter}Nama Saya :${urlEnter}${urlEnter}Saya ingin mengirim berkas lamaran untuk posisi : *${dataPosTel}*`;
+  lltl.setAttribute("href", `https://wa.me/62${dataTelepon}?text=${textLamaranTel}`);
+});
+// WhatsApp
 // Universal
+spanWhatsapp.forEach((spwa) => {
+  spwa.innerText = `Chat WhatsApp`;
+});
 linkWhatsapp.forEach((lkwa) => {
-  let textWa = `Hi admin *PT. Bintang Muda Indonusa*,${urlEnter}${urlEnter}Nama Saya :${urlEnter}${urlEnter}Saya ingin bertanya sesuatu`;
-  lkwa.setAttribute("href", `https://wa.me/62${dataTelepon}?text=${textWa}`);
+  let textWa = `Hi Admin *PT. Bintang Muda Indonusa*,${urlEnter}${urlEnter}Nama Saya :${urlEnter}${urlEnter}Saya ingin bertanya sesuatu`;
+  lkwa.setAttribute("href", `https://wa.me/message/${dataWhatsapp}?text=${textWa}`);
 });
 // Buat Janji
 linkJanjiWhatsapp.forEach((ljwa) => {
-  let textJanjiWa = `Hi admin *PT. Bintang Muda Indonusa*,${urlEnter}${urlEnter}Nama Saya :${urlEnter}${urlEnter}Saya ingin membuat janji temu pada${urlEnter}Hari / Tanggal :${urlEnter}Jam :${urlEnter}Tempat :${urlEnter}Apakah bersedia?`;
-  ljwa.setAttribute("href", `https://wa.me/62${dataTelepon}?text=${textJanjiWa}`);
+  let textJanjiWa = `Hi Admin *PT. Bintang Muda Indonusa*,${urlEnter}${urlEnter}Nama Saya :${urlEnter}${urlEnter}Saya ingin membuat janji temu pada${urlEnter}Hari / Tanggal :${urlEnter}Jam :${urlEnter}Tempat :${urlEnter}Apakah bersedia?`;
+  ljwa.setAttribute("href", `https://wa.me/message/${dataWhatsapp}?text=${textJanjiWa}`);
 });
 // Lamaran Kerja
 linkLamaranWhatsapp.forEach((llwa) => {
-  let dataPosisi = llwa.getAttribute("data-posisi");
-  let textLamaranWa = `Hi admin *PT. Bintang Muda Indonusa*,${urlEnter}${urlEnter}Nama Saya :${urlEnter}${urlEnter}Saya ingin mengirim berkas lamaran untuk posisi : *${dataPosisi}*`;
-  llwa.setAttribute("href", `https://wa.me/62${dataTelepon}?text=${textLamaranWa}`);
+  let dataPosWa = llwa.getAttribute("data-posisi");
+  let textLamaranWa = `Hi Admin *PT. Bintang Muda Indonusa*,${urlEnter}${urlEnter}Nama Saya :${urlEnter}${urlEnter}Saya ingin mengirim berkas lamaran untuk posisi : *${dataPosWa}*`;
+  llwa.setAttribute("href", `https://wa.me/message/${dataWhatsapp}?text=${textLamaranWa}`);
 });
 // Email
 spanEmail.forEach((spem) => {
@@ -350,13 +374,15 @@ $(function(){
     $(this).attr("hiddenhref", href);
     $(this).removeAttr("href");
   });
+
   $(".targetBlank").each(function (index, element) {
     var href = $(this).attr("href");
     $(this).attr("hiddenhref", href);
     $(this).removeAttr("href");
   });
-    $(".targetBlank").click(function () {
-      url = $(this).attr("hiddenhref");
-      window.open(url);
-    });
+
+  $(".targetBlank").click(function () {
+    url = $(this).attr("hiddenhref");
+    window.open(url);
+  });
 });
