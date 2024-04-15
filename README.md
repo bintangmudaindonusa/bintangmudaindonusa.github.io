@@ -28,3 +28,12 @@ Berikut produk jasa yang kami tawarkan :
 <i>* Point 1 s/d 12 melayani pengurusan dokumen seluruh Indonesia</i>
 <br>
 <i>* Point 13 & 14 Hanya berlaku pengurusn dokumen se Provinsi Sulawesi Utara</i>
+
+Tautan Penting :
+<ul>
+  <li><a href="https://bintangmudaindonusa.github.io" target="_blank">Wesbite</a></li>
+  <li><a href="https://www.facebook.com/profile.php?id=61557873582039" target="_blank">Facebook</a></li>
+  <li><a href="https://www.instagram.com/bintang_muda_indonusa" target="_blank">Instagram</a></li>
+  <li><a href="https://www.tiktok.com/@bintangmudaindonusa" target="_blank">Tiktok</a></li>
+  <li><a href="https://www.youtube.com/@bintangmudaindonusa" target="_blank">Youtube</a></li>
+</ul> 
