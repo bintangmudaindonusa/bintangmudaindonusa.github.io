@@ -62,7 +62,7 @@ var dataEmbedAlamat =
 var dataTelepon = "82292220994";
 var dataWhatsapp = "7JQNMQX2GUXBJ1";
 var dataEmail = "bintangmudaindonusa@gmail.com";
-var dataFacebook = "61557873582039";
+var dataFacebook = "bintangmudaindonusa";
 var dataInstagram = "bintang_muda_indonusa";
 var dataTiktok = "bintangmudaindonusa";
 var dataYoutube = "bintangmudaindonusa";
@@ -292,7 +292,7 @@ iframeAlamat.forEach((ifal) => {
 });
 // Facebook
 linkFacebook.forEach((lkfb) => {
-  lkfb.setAttribute("href", `https://facebook.com/profile.php?id=${dataFacebook}`);
+  lkfb.setAttribute("href", `https://facebook.com/${dataFacebook}`);
 });
 // Instagram
 linkInstagram.forEach((lkig) => {
