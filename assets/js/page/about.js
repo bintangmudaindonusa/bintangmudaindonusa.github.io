@@ -44,7 +44,7 @@ const dataKaryawan = [
   },
   {
     nama: "Indra Hamisi",
-    foto: "user-profil.png",
+    foto: "",
     jabatan: "Branch Relation Officer",
     sosmed: "whatsapp", // icon : whatsapp facebook instagram tiktok youtube email
     linkSosmed: "https://wa.me/6285256097579",
@@ -54,9 +54,10 @@ const dataKaryawan = [
 const rowKaryawan = document.querySelector("#rowKaryawan");
 let colKaryawan = "";
 dataKaryawan.forEach((kry) => {
+    let fotoProfil = kry.foto || 'user-profil.png';
     colKaryawan += `<div class="col-6 col-md-4 col-xl-3 d-flex">
                         <div class="card shadow border">
-                            <img class="card-img-top" src="assets/img/hrd/${kry.foto}" alt="${kry.nama}">
+                            <img class="card-img-top" src="assets/img/hrd/${fotoProfil}" alt="${kry.nama}">
                             <div class="card-body py-3">
                                 <h5 class="mb-0 text-primary"><strong>${kry.nama}</strong></h5>
                                 <span>${kry.jabatan}</span>
