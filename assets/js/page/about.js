@@ -16,7 +16,7 @@ const dataKaryawan = [
   },
   {
     nama: "Ruslan D. Samuel",
-    foto: "ruslan.png",
+    foto: "ruslan2.png",
     jabatan: "Admin Support Media",
     sosmed: "instagram", // icon : whatsapp facebook instagram tiktok youtube email
     linkSosmed: "https://www.instagram.com/rusland_s",
