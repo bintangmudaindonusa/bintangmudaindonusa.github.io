@@ -21,6 +21,34 @@ const dataKaryawan = [
     sosmed: "instagram", // icon : whatsapp facebook instagram tiktok youtube email
     linkSosmed: "https://www.instagram.com/rusland_s",
   },
+  {
+    nama: "Rahmat Palowa",
+    foto: "rahmat.png",
+    jabatan: "Branch Relation Officer",
+    sosmed: "whatsapp", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "https://wa.me/6289529424693",
+  },
+  {
+    nama: "Chamdani P. Yudho",
+    foto: "chamdani.png",
+    jabatan: "Branch Relation Officer",
+    sosmed: "whatsapp", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "https://wa.me/6285266193775",
+  },
+  {
+    nama: "Brian Y. Pasla",
+    foto: "brian.png",
+    jabatan: "Branch Relation Officer",
+    sosmed: "whatsapp", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "https://wa.me/6285342083099",
+  },
+  {
+    nama: "Indra Hamisi",
+    foto: "user-profil.png",
+    jabatan: "Branch Relation Officer",
+    sosmed: "whatsapp", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "https://wa.me/6285256097579",
+  },
 ];
 
 const rowKaryawan = document.querySelector("#rowKaryawan");
