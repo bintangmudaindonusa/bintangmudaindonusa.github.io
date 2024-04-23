@@ -66,6 +66,7 @@ var dataFacebook = "bintangmudaindonusa";
 var dataInstagram = "bintang_muda_indonusa";
 var dataTiktok = "bintangmudaindonusa";
 var dataYoutube = "bintangmudaindonusa";
+var dataLinkedin = "bintangmudaindonusa";
 var versiApp = "1.1.24"; // nomor versi : nomor batch : tahun
 var versiWeb = "Online"; // Developer / Online
 // let pathWeb = "/bintang-muda-indonusa/";
@@ -151,6 +152,7 @@ function renderFooter() {
                               <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkInstagram "><i class="bi bi-instagram mr-1"></i> Instagram</a></li>
                               <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkTiktok "><i class="bi bi-tiktok mr-1"></i> Tiktok</a></li>
                               <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkYoutube "><i class="bi bi-youtube mr-1"></i> Youtube</a></li>
+                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkLinkedin "><i class="bi bi-linkedin mr-1"></i> LinkedIn</a></li>
                             </ul>
                           </div>
                         </div>
@@ -227,6 +229,7 @@ let linkFacebook = document.querySelectorAll(".linkFacebook");
 let linkInstagram = document.querySelectorAll(".linkInstagram");
 let linkTiktok = document.querySelectorAll(".linkTiktok");
 let linkYoutube = document.querySelectorAll(".linkYoutube");
+let linkLinkedin = document.querySelectorAll(".linkLinkedin");
 let iframeAlamat = document.querySelectorAll(".iframeAlamat");
 // Nama
 spanNama.forEach((spnm) => {
@@ -305,6 +308,10 @@ linkTiktok.forEach((lktt) => {
 // Youtube
 linkYoutube.forEach((lkyt) => {
   lkyt.setAttribute("href", `https://youtube.com/@${dataYoutube}`);
+});
+// LinkedIn
+linkYoutube.forEach((lkli) => {
+  lkli.setAttribute("href", `https://www.linkedin.com/company/${dataLinkedin}`);
 });
 
 // WAKTU
