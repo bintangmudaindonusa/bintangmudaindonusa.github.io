@@ -310,7 +310,7 @@ linkYoutube.forEach((lkyt) => {
   lkyt.setAttribute("href", `https://youtube.com/@${dataYoutube}`);
 });
 // LinkedIn
-linkYoutube.forEach((lkli) => {
+linkLinkedin.forEach((lkli) => {
   lkli.setAttribute("href", `https://www.linkedin.com/company/${dataLinkedin}`);
 });
 
