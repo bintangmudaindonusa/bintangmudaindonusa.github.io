@@ -3,7 +3,7 @@ const dataKaryawan = [
   {
     nama: "Roni Pilohima",
     foto: "roni.png",
-    jabatan: "Pendiri, CEO",
+    jabatan: "Direktur, CEO",
     sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
     linkSosmed: "roni-pilohima",
   },
