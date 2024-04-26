@@ -1,6 +1,7 @@
 // TIM
 const dataKaryawan = [
   {
+    id: "BMI00001",
     nama: "Roni Pilohima",
     foto: "roni.png",
     jabatan: "Direktur, CEO",
@@ -8,6 +9,7 @@ const dataKaryawan = [
     linkSosmed: "roni-pilohima",
   },
   {
+    id: "BMI00002",
     nama: "Thiofilus M. Koho",
     foto: "thiofilus.png",
     jabatan: "Admin Officer",
@@ -15,20 +17,7 @@ const dataKaryawan = [
     linkSosmed: "thiofilus-koho",
   },
   {
-    nama: "Ruslan D. Samuel",
-    foto: "ruslan2.png",
-    jabatan: "Admin Support Media",
-    sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "ruslan-samuel",
-  },
-  {
-    nama: "Rahmat Palowa",
-    foto: "rahmat.png",
-    jabatan: "Branch Relation Officer",
-    sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "rahmat-palowa",
-  },
-  {
+    id: "BMI00003",
     nama: "Chamdani P. Yudho",
     foto: "chamdani.png",
     jabatan: "Branch Relation Officer",
@@ -36,6 +25,7 @@ const dataKaryawan = [
     linkSosmed: "chamdani-yudho",
   },
   {
+    id: "BMI00004",
     nama: "Brian Y. Pasla",
     foto: "brian.png",
     jabatan: "Branch Relation Officer",
@@ -43,11 +33,28 @@ const dataKaryawan = [
     linkSosmed: "brian-pasla",
   },
   {
+    id: "BMI00005",
+    nama: "Rahmat Palowa",
+    foto: "rahmat.png",
+    jabatan: "Branch Relation Officer",
+    sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "rahmat-palowa",
+  },
+  {
+    id: "BMI00006",
     nama: "Indra Hamisi",
     foto: "",
     jabatan: "Branch Relation Officer",
     sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
     linkSosmed: "indra-hamisi",
+  },
+  {
+    id: "BMI00007",
+    nama: "Ruslan D. Samuel",
+    foto: "ruslan2.png",
+    jabatan: "Admin Support Media",
+    sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "ruslan-samuel",
   },
 ];
 
