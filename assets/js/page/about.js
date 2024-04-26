@@ -4,50 +4,50 @@ const dataKaryawan = [
     nama: "Roni Pilohima",
     foto: "roni.png",
     jabatan: "Pendiri, CEO",
-    sosmed: "facebook", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "https://www.facebook.com/r.pilohima",
+    sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "roni-pilohima",
   },
   {
     nama: "Thiofilus M. Koho",
     foto: "thiofilus.png",
     jabatan: "Admin Officer",
-    sosmed: "whatsapp", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "#",
+    sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "thiofilus-koho",
   },
   {
     nama: "Ruslan D. Samuel",
     foto: "ruslan2.png",
     jabatan: "Admin Support Media",
-    sosmed: "instagram", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "https://www.instagram.com/rusland_s",
+    sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "ruslan-samuel",
   },
   {
     nama: "Rahmat Palowa",
     foto: "rahmat.png",
     jabatan: "Branch Relation Officer",
-    sosmed: "whatsapp", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "https://wa.me/6289529424693",
+    sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "rahmat-palowa",
   },
   {
     nama: "Chamdani P. Yudho",
     foto: "chamdani.png",
     jabatan: "Branch Relation Officer",
-    sosmed: "whatsapp", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "https://wa.me/6285266193775",
+    sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "chamdani-yudho",
   },
   {
     nama: "Brian Y. Pasla",
     foto: "brian.png",
     jabatan: "Branch Relation Officer",
-    sosmed: "whatsapp", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "https://wa.me/6285342083099",
+    sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "brian-pasla",
   },
   {
     nama: "Indra Hamisi",
     foto: "",
     jabatan: "Branch Relation Officer",
-    sosmed: "whatsapp", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "https://wa.me/6285256097579",
+    sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
+    linkSosmed: "indra-hamisi",
   },
 ];
 
@@ -63,7 +63,7 @@ dataKaryawan.forEach((kry) => {
                                 <span>${kry.jabatan}</span>
                             </div>
                             <div class="card-footer">
-                                <a href="${kry.linkSosmed}" target="_blank" class="d-block targetBlank text-primary"><i class="bi bi-${kry.sosmed} mr-1"></i>${kry.nama}</a>
+                                <a href="${kry.linkSosmed}" target="_blank" class="d-block targetBlank text-primary"><i class="bi bi-${kry.sosmed} mr-1"></i>Lihat Kartu Nama</a>
                             </div>
                         </div>
                     </div>`;
