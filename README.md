@@ -47,6 +47,14 @@
       <td><a href="https://bintangmudaindonusa.github.io" target="_blank">https://bintangmudaindonusa.github.io</a></td>
     </tr>
     <tr>
+      <td>Short Web</td>
+      <td><a href="https://bit.ly/m/bintangmudaindonusa" target="_blank">https://bit.ly/m/bintangmudaindonusa</a></td>
+    </tr>
+    <tr>
+      <td>WhatsApp</td>
+      <td><a href="https://wa.me/message/7JQNMQX2GUXBJ1" target="_blank">https://wa.me/message/7JQNMQX2GUXBJ1</a></td>
+    </tr>
+    <tr>
       <td>Facebook</td>
       <td><a href="https://www.facebook.com/bintangmudaindonusa" target="_blank">https://www.facebook.com/bintangmudaindonusa</a></td>
     </tr>
@@ -65,6 +73,61 @@
     <tr>
       <td>LinkedIn</td>
       <td><a href="https://www.linkedin.com/company/bintangmudaindonusa" target="_blank">https://www.linkedin.com/company/bintangmudaindonusa</a></td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+<h4>Karyawan :</h4>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><img src="assets/img/hrd/roni.png" width="50px" style="border-radius: 50%;"></td>
+      <td>Roni Pilohima</td>
+      <td>Direktur, CEO</td>
+      <td>BMI00001</td>
+      <td><a href="https://bintangmudaindonusa.github.io/roni-pilohima" target="_blank">https://bintangmudaindonusa.github.io/roni-pilohima</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/img/hrd/thiofilus.png" width="50px" style="border-radius: 50%;"></td>
+      <td>Thiofilus Marselino Koho</td>
+      <td>Admin Officer</td>
+      <td>BMI00002</td>
+      <td><a href="https://bintangmudaindonusa.github.io/thiofilus-koho" target="_blank">https://bintangmudaindonusa.github.io/thiofilus-koho</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/img/hrd/chamdani.png" width="50px" style="border-radius: 50%;"></td>
+      <td>Chamdani Priyo Yudho</td>
+      <td>Branch Relation Officer</td>
+      <td>BMI00003</td>
+      <td><a href="https://bintangmudaindonusa.github.io/chamdani-yudho" target="_blank">https://bintangmudaindonusa.github.io/chamdani-yudho</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/img/hrd/brian.png" width="50px" style="border-radius: 50%;"></td>
+      <td>Brian Yorens Pasla</td>
+      <td>Branch Relation Officer</td>
+      <td>BMI00004</td>
+      <td><a href="https://bintangmudaindonusa.github.io/brian-pasla" target="_blank">https://bintangmudaindonusa.github.io/brian-pasla</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/img/hrd/rahmat.png" width="50px" style="border-radius: 50%;"></td>
+      <td>Rahmat Palowa</td>
+      <td>Branch Relation Officer</td>
+      <td>BMI00005</td>
+      <td><a href="https://bintangmudaindonusa.github.io/rahmat-palowa" target="_blank">https://bintangmudaindonusa.github.io/rahmat-palowa</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/img/hrd/user-profil.png" width="50px" style="border-radius: 50%;"></td>
+      <td>Indra Hamisi</td>
+      <td>Branch Relation Officer</td>
+      <td>BMI00006</td>
+      <td><a href="https://bintangmudaindonusa.github.io/indra-hamisi" target="_blank">https://bintangmudaindonusa.github.io/indra-hamisi</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/img/hrd/ruslan.png" width="50px" style="border-radius: 50%;"></td>
+      <td>Ruslan Dara Samuel</td>
+      <td>Admin Support Media</td>
+      <td>BMI00007</td>
+      <td><a href="https://bintangmudaindonusa.github.io/ruslan-samuel" target="_blank">https://bintangmudaindonusa.github.io/ruslan-samuel</a></td>
     </tr>
   </tbody>
 </table>
