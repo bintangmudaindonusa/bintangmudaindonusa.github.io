@@ -1,7 +1,7 @@
-<h1>PT BINTANG MUDA INDONUSA</h1>
-<h3>Layanan Jasa Pengurusan Dokumen, Konsultan Bisnis dan Keuangan</h3>
+<h1>PT. BINTANG MUDA INDONUSA</h1>
+<h3>Layanan Jasa Pendirian Perusahaan, Pengurusan Dokumen Legal, Konsultan Bisnis dan Keuangan</h3>
 <hr>
-<h4>Produk / Layanan :</h4>
+<h4>Produk / Layanan</h4>
 <ul>
   <li>⭐ PT Perseroan (Promo)</li>
   <li>⭐ PT Perseroan (Exclusive)</li>
@@ -29,7 +29,7 @@
 <br>
 <i>* Point 13 & 14 Hanya berlaku pengurusn dokumen se Provinsi Sulawesi Utara</i>
 <hr>
-<h4>Formulir :</h4>
+<h4>Formulir</h4>
 <table width="100%">
   <tbody>
     <tr>
@@ -39,7 +39,7 @@
   </tbody>
 </table>
 <hr>
-<h4>Sosial Media :</h4>
+<h4>Sosial Media</h4>
 <table width="100%">
   <tbody>
     <tr>
@@ -77,7 +77,7 @@
   </tbody>
 </table>
 <hr>
-<h4>Karyawan :</h4>
+<h4>Karyawan</h4>
 <table width="100%">
   <tbody>
     <tr>
