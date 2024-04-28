@@ -189,6 +189,10 @@ function renderMenu() {
       link: "contact.html",
     },
     {
+      judul: "Sosial Media",
+      link: "social-media.html",
+    },
+    {
       judul: "Berita",
       link: "news.html",
     },
