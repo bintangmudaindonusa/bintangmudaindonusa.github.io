@@ -124,21 +124,19 @@ function renderFooter() {
   footer.innerHTML = `<div class="container">
                         <div class="row">
                           <div class="col-6 col-md-3 mb-md-0">
-                            <img src="assets/img/logo.png" alt="Logo" width="150px" class="mb-2">
-                            <ul class="list-unstyled" id="footerMenu"></ul>
+                            <img src="assets/img/logo.png" alt="Logo" width="225px" class="mb-2">
                           </div>
                           <div class="col-6 col-md-3 mb-md-0">
                             <h5 class="text-white"><strong>PRODUK &amp; LAYANAN</strong></h5>
                             <ul class="list-unstyled">
-                              <li class="py-0 py-md-1"><a href="services.html" class="text-white">Dokumen Sipil</a></li>
-                              <li class="py-0 py-md-1"><a href="services.html" class="text-white">Wajib Pajak</a></li>
+                              <li class="py-0 py-md-1"><a href="services.html" class="text-white">Dokumen Legal</a></li>
+                              <li class="py-0 py-md-1"><a href="services.html" class="text-white">Perpajakan</a></li>
                               <li class="py-0 py-md-1"><a href="services.html" class="text-white">Keuangan</a></li>
                             </ul>
                           </div>
                           <div class="col-6 col-md-3 mb-md-0">
                             <h5 class="text-white"><strong>BANTUAN &amp; DUKUNGAN</strong></h5>
                             <ul class="list-unstyled">
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkWhatsapp">Hubungi Kami</a></li>
                               <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkAlamat">Lokasi Kantor</a></li>
                               <li class="py-0 py-md-1"><a href="#" class="text-white urlHide">Informasi Penting</a></li>
                               <li class="py-0 py-md-1"><a href="#" class="text-white urlHide">Forum Tanya Jawab</a></li>
@@ -146,13 +144,17 @@ function renderFooter() {
                           </div>
                           <div class="col-6 col-md-3 mb-md-0">
                             <h5 class="text-white"><strong>SOSIAL MEDIA</strong></h5>
-                            <ul class="list-unstyled">
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkWhatsapp "><i class="bi bi-whatsapp mr-1"></i> WhatsApp</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkFacebook "><i class="bi bi-facebook mr-1"></i> Facebook</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkInstagram "><i class="bi bi-instagram mr-1"></i> Instagram</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkTiktok "><i class="bi bi-tiktok mr-1"></i> Tiktok</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkYoutube "><i class="bi bi-youtube mr-1"></i> Youtube</a></li>
-                              <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkLinkedin "><i class="bi bi-linkedin mr-1"></i> LinkedIn</a></li>
+                            <ul class="list-unstyled row">
+                              <div class="col-md-6">
+                                <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkWhatsapp "><i class="bi bi-whatsapp mr-1"></i> WhatsApp</a></li>
+                                <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkFacebook "><i class="bi bi-facebook mr-1"></i> Facebook</a></li>
+                                <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkInstagram "><i class="bi bi-instagram mr-1"></i> Instagram</a></li>
+                              </div>
+                              <div class="col-md-6">
+                                <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkTiktok "><i class="bi bi-tiktok mr-1"></i> Tiktok</a></li>
+                                <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkYoutube "><i class="bi bi-youtube mr-1"></i> Youtube</a></li>
+                                <li class="py-0 py-md-1"><a href="#" target="_blank" class="text-white targetBlank linkLinkedin "><i class="bi bi-linkedin mr-1"></i> LinkedIn</a></li>
+                              </div>
                             </ul>
                           </div>
                         </div>
@@ -171,9 +173,7 @@ function renderFooter() {
 
 function renderMenu() {
   const navMenu = document.querySelector("#navMenu");
-  const footerMenu = document.querySelector("#footerMenu");
   let isiNavMenu = "";
-  let isiFooterMenu = "";
 
   const dataMenu = [
     {
@@ -200,11 +200,9 @@ function renderMenu() {
     } else {
       isiNavMenu += `<li class="nav-item"><a class="nav-link h5" href="${mn.link}">${mn.judul}</a></li>`;
     }
-    isiFooterMenu += `<li class="py-0 py-md-1"><a href="${mn.link}" class="text-white">${mn.judul}</a></li>`;
   });
 
   navMenu.innerHTML = isiNavMenu;
-  footerMenu.innerHTML = isiFooterMenu;
 }
 
 renderNavbar();
