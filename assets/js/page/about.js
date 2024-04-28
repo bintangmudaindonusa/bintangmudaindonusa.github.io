@@ -1,60 +1,53 @@
 // TIM
 const dataKaryawan = [
   {
-    id: "BMI00001",
     nama: "Roni Pilohima",
     foto: "roni.png",
     jabatan: "Direktur, CEO",
     sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "roni-pilohima",
+    linkSosmed: "user/roni/index.html",
   },
   {
-    id: "BMI00002",
     nama: "Thiofilus M. Koho",
     foto: "thiofilus.png",
     jabatan: "Admin Officer",
     sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "thiofilus-koho",
+    linkSosmed: "user/thio/index.html",
   },
   {
-    id: "BMI00003",
     nama: "Chamdani P. Yudho",
     foto: "chamdani.png",
     jabatan: "Branch Relation Officer",
     sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "chamdani-yudho",
+    linkSosmed: "user/cham/index.html",
   },
   {
-    id: "BMI00004",
     nama: "Brian Y. Pasla",
     foto: "brian.png",
     jabatan: "Branch Relation Officer",
     sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "brian-pasla",
+    linkSosmed: "user/brian/index.html",
   },
   {
-    id: "BMI00005",
     nama: "Rahmat Palowa",
     foto: "rahmat.png",
     jabatan: "Branch Relation Officer",
     sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "rahmat-palowa",
+    linkSosmed: "user/rahmat/index.html",
   },
   {
-    id: "BMI00006",
     nama: "Indra Hamisi",
     foto: "",
     jabatan: "Branch Relation Officer",
     sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "indra-hamisi",
+    linkSosmed: "user/indra/index.html",
   },
   {
-    id: "BMI00007",
     nama: "Ruslan D. Samuel",
     foto: "ruslan2.png",
     jabatan: "Admin Support Media",
     sosmed: "person-vcard", // icon : whatsapp facebook instagram tiktok youtube email
-    linkSosmed: "ruslan-samuel",
+    linkSosmed: "user/ulan/index.html",
   },
 ];
 
@@ -62,7 +55,7 @@ const rowKaryawan = document.querySelector("#rowKaryawan");
 let colKaryawan = "";
 dataKaryawan.forEach((kry) => {
     let fotoProfil = kry.foto || 'user-profil.png';
-    colKaryawan += `<div class="col-6 col-md-4 col-xl-3 d-flex">
+    colKaryawan += `<div class="col-md-4 col-xl-3 d-flex">
                         <div class="card shadow border">
                             <img class="card-img-top" src="assets/img/hrd/${fotoProfil}" alt="${kry.nama}">
                             <div class="card-body py-3">
@@ -95,8 +88,8 @@ const dataKarir = [
 const rowKarir = document.querySelector("#rowKarir");
 let colKarir = "";
 dataKarir.forEach((krr) => {
-  colKarir += `<div class="col-6 col-md-4 col-xl-3 d-flex">
-                    <div class="card shadow">
+  colKarir += `<div class="col-md-4 col-xl-3 d-flex">
+                    <div class="card shadow mx-auto">
                         <div class="card-body">
                             <div class="mb-3">
                                 <h2 class="h2 text-primary"><strong>${krr.jabatan}</strong></h2>
