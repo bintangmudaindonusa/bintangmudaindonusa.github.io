@@ -82,44 +82,37 @@
   <tbody>
     <tr>
       <td width="10%"><img src="assets/img/hrd/roni.png" style="border-radius: 50%;"></td>
-      <td>Roni Pilohima</td>
-      <td>Direktur, CEO</td>
+      <td><strong>RONI PILOHIMA</strong><br><small>- Direktur, CEO</small></td>
       <td><a href="https://bintangmudaindonusa.github.io/roni-pilohima" target="_blank">https://bintangmudaindonusa.github.io/roni-pilohima</a></td>
     </tr>
     <tr>
       <td width="10%"><img src="assets/img/hrd/thiofilus.png" style="border-radius: 50%;"></td>
-      <td>Thiofilus Marselino Koho</td>
-      <td>Admin Officer</td>
+      <td><strong>THIOFILUS MARSELINO KOHO</strong><br><small>- Admin Officer</small></td>
       <td><a href="https://bintangmudaindonusa.github.io/thiofilus-koho" target="_blank">https://bintangmudaindonusa.github.io/thiofilus-koho</a></td>
     </tr>
     <tr>
       <td width="10%"><img src="assets/img/hrd/chamdani.png" style="border-radius: 50%;"></td>
-      <td>Chamdani Priyo Yudho</td>
-      <td>Branch Relation Officer</td>
+      <td><strong>CHAMDANI PRIYO YUDHO</strong><br><small>- Branch Relation Officer</small></td>
       <td><a href="https://bintangmudaindonusa.github.io/chamdani-yudho" target="_blank">https://bintangmudaindonusa.github.io/chamdani-yudho</a></td>
     </tr>
     <tr>
       <td width="10%"><img src="assets/img/hrd/brian.png" style="border-radius: 50%;"></td>
-      <td>Brian Yorens Pasla</td>
-      <td>Branch Relation Officer</td>
+      <td><strong>BRIAN YORENS PASLA</strong><br><small>- Branch Relation Officer</small></td>
       <td><a href="https://bintangmudaindonusa.github.io/brian-pasla" target="_blank">https://bintangmudaindonusa.github.io/brian-pasla</a></td>
     </tr>
     <tr>
       <td width="10%"><img src="assets/img/hrd/rahmat.png" style="border-radius: 50%;"></td>
-      <td>Rahmat Palowa</td>
-      <td>Branch Relation Officer</td>
+      <td><strong>RAHMAT PALOWA</strong><br><small>- Branch Relation Officer</small></td>
       <td><a href="https://bintangmudaindonusa.github.io/rahmat-palowa" target="_blank">https://bintangmudaindonusa.github.io/rahmat-palowa</a></td>
     </tr>
     <tr>
       <td width="10%"><img src="assets/img/hrd/user-profil.png" style="border-radius: 50%;"></td>
-      <td>Indra Hamisi</td>
-      <td>Branch Relation Officer</td>
+      <td><strong>INDRA HAMISI</strong><br><small>- Branch Relation Officer</small></td>
       <td><a href="https://bintangmudaindonusa.github.io/indra-hamisi" target="_blank">https://bintangmudaindonusa.github.io/indra-hamisi</a></td>
     </tr>
     <tr>
       <td width="10%"><img src="assets/img/hrd/ruslan.png" style="border-radius: 50%;"></td>
-      <td>Ruslan Dara Samuel</td>
-      <td>Admin Support Media</td>
+      <td><strong>RUSLAN DARA SAMUEL</strong><br><small>- Admin Support Media</small></td>
       <td><a href="https://bintangmudaindonusa.github.io/ruslan-samuel" target="_blank">https://bintangmudaindonusa.github.io/ruslan-samuel</a></td>
     </tr>
   </tbody>
