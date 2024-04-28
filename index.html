@@ -37,20 +37,17 @@
         <img src="assets/img/header.png" alt="Image" class="bg-image">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-7 mr-auto my-5">
+                <div class="col-lg-8 mr-auto my-5">
                     <h1 class="display-5 text-primary"><strong>PT. <span class="text-uppercase spanNama"></span></strong></h1>
-                    <p class="lead m-0 text-primary">Layanan Jasa Pendirian Perusahaan, Pengurusan Dokumen Legal, Konsultan Bisnis dan Keuangan</p>
-                    <p class="lead m-0 text-primary">NIB : <span class="spanNib"></span></p>
+                    <p class="lead m-0">Layanan Jasa Pengurusan Dokumen Sipil</p>
+                    <p class="lead m-0">NIB : <span class="spanNib"></span></p>
                     <a href="about.html" class="btn btn-lg btn-primary text-white shadow mt-3">Selengkapnya</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg-gradient-2 shadow spacer-y-1 d-flex align-items-center py-2">
-        <marquee class="text-white m-0" id="runningText">
-            <span><img src="assets/img/logo3.png" width="30px" alt="Logo" class="rounded-circle"> PT. Bintang Muda Indonusa</span>
-            <span><img src="assets/img/logo3.png" width="30px" alt="Logo" class="rounded-circle"></span>
-        </marquee>
+    <section class="bg-gradient-3 shadow d-flex align-items-center py-2">
+        <marquee class="text-white m-0" id="runningText"></marquee>
     </section>
     <section>
         <div class="container">
@@ -148,7 +145,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-gradient-2">
+    <section class="bg-gradient-3 py-3">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col col-12 text-center">
@@ -209,11 +206,10 @@
         const runningText = document.querySelector("#runningText");
         let spanRunningText = ``;
         let dataRunningText = [
-            "PT. Bintang Muda Indonusa",
-            "Jasa Pendirian Perusahaan",
-            "Pengurusan Dokumen Legal",
-            "Konsultan Bisnis",
-            "Penyedia Jasa Keuangan",
+        "PT. Bintang Muda Indonusa",
+        "Jasa Pengurusan Dokumen SIpil",
+        "Konsultan Bisnis",
+        "Penyedia Jasa Keuangan",
         ];
         for(let rt = 0; rt < dataRunningText.length; rt++){
         spanRunningText += `<img src="assets/img/logo3.png" width="30px" alt="Logo" class="rounded-circle mr-2">`;
