@@ -29,11 +29,42 @@ Berikut produk jasa yang kami tawarkan :
 <br>
 <i>* Point 13 & 14 Hanya berlaku pengurusn dokumen se Provinsi Sulawesi Utara</i>
 <br><br>
-Tautan Penting :
-<ul>
-  <li><a href="https://bintangmudaindonusa.github.io" target="_blank">Wesbite</a></li>
-  <li><a href="https://www.facebook.com/profile.php?id=61557873582039" target="_blank">Facebook</a></li>
-  <li><a href="https://www.instagram.com/bintang_muda_indonusa" target="_blank">Instagram</a></li>
-  <li><a href="https://www.tiktok.com/@bintangmudaindonusa" target="_blank">Tiktok</a></li>
-  <li><a href="https://www.youtube.com/@bintangmudaindonusa" target="_blank">Youtube</a></li>
-</ul> 
+Formulir :
+<table width="100%">
+  <tbody>
+    <tr>
+      <td>Pendirian PT Badan Usaha</td>
+      <td><a href="https://bintangmudaindonusa.github.io/formulir-pendirian-pt-badan-usaha.html" target="_blank">https://bintangmudaindonusa.github.io/formulir-pendirian-pt-badan-usaha.html</a></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+Sosial Media :
+<table width="100%">
+  <tbody>
+    <tr>
+      <td>Website</td>
+      <td><a href="https://bintangmudaindonusa.github.io" target="_blank">https://bintangmudaindonusa.github.io</a></td>
+    </tr>
+    <tr>
+      <td>Facebook</td>
+      <td><a href="https://www.facebook.com/bintangmudaindonusa" target="_blank">https://www.facebook.com/bintangmudaindonusa</a></td>
+    </tr>
+    <tr>
+      <td>Instagram</td>
+      <td><a href="https://www.instagram.com/bintang_muda_indonusa" target="_blank">https://www.instagram.com/bintang_muda_indonusa</a></td>
+    </tr>
+    <tr>
+      <td>Tiktok</td>
+      <td><a href="https://www.tiktok.com/@bintangmudaindonusa" target="_blank">https://www.tiktok.com/@bintangmudaindonusa</a></td>
+    </tr>
+    <tr>
+      <td>Youtube</td>
+      <td><a href="https://www.youtube.com/@bintangmudaindonusa" target="_blank">https://www.youtube.com/@bintangmudaindonusa</a></td>
+    </tr>
+    <tr>
+      <td>LinkedIn</td>
+      <td><a href="https://www.linkedin.com/company/bintangmudaindonusa" target="_blank">https://www.linkedin.com/company/bintangmudaindonusa</a></td>
+    </tr>
+  </tbody>
+</table>
