@@ -33,6 +33,10 @@
 <table width="100%">
   <tbody>
     <tr>
+      <td>Layanan</td>
+      <td><a href="https://bintangmudaindonusa.github.io/services.html" target="_blank">https://bintangmudaindonusa.github.io/services.html</a></td>
+    </tr>
+    <tr>
       <td>Pendirian PT Badan Usaha</td>
       <td><a href="https://bintangmudaindonusa.github.io/formulir-pendirian-pt-badan-usaha.html" target="_blank">https://bintangmudaindonusa.github.io/formulir-pendirian-pt-badan-usaha.html</a></td>
     </tr>
