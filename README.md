@@ -1,4 +1,4 @@
-<h1>PT. BINTANG MUDA INDONUSA</h1>
+<h1><img src="assets/img/logo.png" width="50px"> PT. BINTANG MUDA INDONUSA</h1>
 <h3>Layanan Jasa Pendirian Perusahaan, Pengurusan Dokumen Legal, Konsultan Bisnis dan Keuangan</h3>
 <hr>
 <h4>Produk / Layanan</h4>
